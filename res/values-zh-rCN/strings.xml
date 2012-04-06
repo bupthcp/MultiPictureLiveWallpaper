@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    If you translate and localize to other language,
+    and if you want, please send me resource files.
+    I'd like to include more locales.
+-->
+<resources>
+  <string name="app_name">壁纸相册</string>
+  <string name="app_description">老婆生日快乐^_^</string>
+
+  <string name="shortcut_name_settings">设置</string>
+
+  <string name="plugin_search_button">搜索插件</string>
+  <string name="pref_use_default">Same as common settings</string>
+  <string name="pref_screen_type_file_desc">单幅图片 : %s</string>
+  <string name="pref_screen_type_folder_desc">使用文件夹 : %s</string>
+  <string name="pref_screen_type_bucket_desc">使用相册应用 : %s</string>
+
+  <string name="pref_cat_screen_title">屏幕设置</string>
+
+  <string name="pref_group_screen_default_title">一般项</string>
+  <string name="pref_group_screen_default_summary">一些通用的设置选项(在这里选择相片目录)</string>
+
+  <string name="pref_cat_picture_screen_title">第 %d 屏设置</string>
+  <string name="pref_cat_picture_screen_summary">第 %d屏的设置</string>
+  <string name="pref_cat_picture_screen_left_summary">Individual settings for screen %d. (Leftmost screen)</string>
+
+  <string name="pref_add_screen_title">增加对单独屏幕的设置项</string>
+  <string name="pref_add_screen_summary">增加对单独屏幕的设置项.</string>
+  <string name="pref_add_screen_dialog_title">选择屏幕</string>
+
+  <string name="pref_screen_val_summary">\n%s</string>
+
+  <string name="pref_screen_type_title">相片来源</string>
+  <string name="pref_screen_type_base_summary">选择用来显示的相片</string>
+
+  <string name="pref_screen_bgcolor_title">背景颜色</string>
+  <string name="pref_screen_bgcolor_summary">屏幕的背景颜色</string>
+
+  <string name="pref_screen_clipratio_title">缩放比例</string>
+  <string name="pref_screen_clipratio_summary">选择如何缩放以适应屏幕大小</string>
+
+  <string name="pref_screen_saturation_title">Decrease saturation</string>
+  <string name="pref_screen_saturation_summary">Decrease saturation to show as grayscale.</string>
+
+  <string name="pref_screen_opacity_title">Decrease opacity</string>
+  <string name="pref_screen_opacity_summary">Decrease opacity (increase transparency).</string>
+
+  <string name="pref_screen_keyguard_enable_title">使用锁屏设置</string>
+  <string name="pref_screen_keyguard_enable_summary">显示锁屏使用的设置项</string>
+
+  <string name="pref_group_screen_keyguard_title">锁屏设置</string>
+  <string name="pref_group_screen_keyguard_summary">锁定屏幕时使用的设置项</string>
+
+  <string name="pref_cat_draw_title">绘制选项</string>
+
+  <string name="pref_draw_transition_title">渐变方式</string>
+  <string name="pref_draw_transition_summary">在切换屏幕时使用的图像渐变方式.</string>
+
+  <string name="pref_draw_reflection_top_title">显示倒影效果 (顶端)</string>
+  <string name="pref_draw_reflection_top_summary">在图像顶端显示倒影效果.</string>
+
+  <string name="pref_draw_reflection_bottom_title">显示倒影效果 (底端)</string>
+  <string name="pref_draw_reflection_bottom_summary">在图像底端显示倒影效果.</string>
+
+  <string name="pref_cat_changing_title">更换相片</string>
+
+  <string name="pref_folder_changetap_title">以双击方式更换相片</string>
+  <string name="pref_folder_changetap_summary">当在桌面上双击时，会更换到下一张可用的相片.</string>
+
+  <string name="pref_folder_duration_title">自动刷新频率</string>
+  <string name="pref_folder_duration_summary">自动更换相片的时间间隔.</string>
+
+  <string name="pref_cat_advanced">高级设置</string>
+
+  <string name="pref_workaround_launcher_title">Workaround for some home application</string>
+  <string name="pref_workaround_launcher_summary">Workaround for using with some home application, such as pictures are not changed when switching screen, etc.</string>
+
+  <string name="pref_memory_max_title">内存使用限制</string>
+  <string name="pref_memory_max_summary">与图像质量以及性能相关.</string>
+  <string name="pref_memory_max_confirm">在某些机器或者使用某些大相片时会有异常停止的情况出现.\n在这种情况下，请选择低内存配置.</string>
+
+  <string name="pref_color_fullcolor_title">颜色深度</string>
+  <string name="pref_color_fullcolor_summary">图像质量选择.</string>
+
+  <string name="pref_cat_other">其他</string>
+  <string name="pref_other_dnt_title">Donation version</string>
+  <string name="pref_other_dnt_summary">Get donation version.</string>
+
+  <string name="pref_single_picture_title">单幅图片</string>
+
+  <string name="pref_album_title">相册</string>
+  <string name="pref_cat_album_title">选择相册</string>
+  <string name="pref_no_bucket_exist_msg">该相册不存在.</string>
+  <string name="pref_no_bucket_select_msg">相册已被选中.</string>
+
+  <string name="pref_folder_title">相片文件夹</string>
+  <string name="pref_cat_folder_title">选择文件夹</string>
+  <string name="pref_folder_path_title">文件夹路径</string>
+  <string name="pref_folder_path_summary">存放相片的文件夹路径.</string>
+  <string name="pref_folder_recursive_title">递归地使用该文件夹下所有相片</string>
+  <string name="pref_folder_recursive_summary">递归地使用该文件夹下所有相片.</string>
+  <string name="pref_no_folder_select_msg">文件夹未被选中.</string>
+
+  <string name="pref_cat_selection_title">Selection Settings</string>
+
+  <string name="pref_select_order_title">Picture selection order</string>
+  <string name="pref_select_order_summary">Selection order when changing picture.</string>
+
+  <string name="pref_select_rescan_title">Rescan pictures when modified</string>
+  <string name="pref_select_rescan_summary">Rescan pictures when picture is modified; e.g. when picture file is add, delete, modified, etc.</string>
+
+  <string name="pref_select_use_mediaprovider_title">Search from gallery</string>
+  <string name="pref_select_use_mediaprovider_summary">If disabled, it may take time to load.</string>
+
+  <string name="menu_share">Share</string>
+  <string name="menu_qr">QR Code</string>
+
+  <string name="album_loading">Loading...</string>
+  <string name="album_saving">Saving...</string>
+
+  <string name="folder_picker_title">Select Folder</string>
+  <string name="folder_up">../ (Up folder)</string>
+  <string name="folder_loading">Loading...</string>
+
+  <string name="str_pic_not_avail_1">第%d屏: 没有找到可用的相片.</string>
+  <string name="str_pic_not_avail_2">请点击屏幕下方的设置键选择您的相册目录.</string>
+  <string name="str_pic_not_avail_keyguard">锁屏: 没有找到可用的相片.</string>
+
+  <string name="chooser_wallpaper">Select wallpaper from</string>
+  <string name="chooser_live_wallpaper">Select \'Live wallpapers\'</string>
+  <string name="chooser_navigation">Select \'MultiPicture Live Wallpaper\'</string>
+  <string name="lwp_not_supported">Live Wallpaper may not supported.</string>
+  <string name="mailer_not_found">Email application is not found.</string>
+  <string name="gallery_not_found">Gallery application is not found.</string>
+  <string name="market_not_found">Market application is not found.</string>
+  <string name="picsource_not_found">Picture source plugin is not found.</string>
+
+  <!-- DO NOT localize below -->
+  <string name="workaround_default">htc_sense</string>
+  <string name="plugin_search_uri">market://search?q=MultiPicture-Live-Wallpaper</string>
+  <string name="dnt_search_uri">market://search?q=pname:org.tamanegi.wallpaper.multipicture.dnt</string>
+
+  <string name="share_text">MultiPicture Live Wallpaper http://market.android.com/details?id=org.tamanegi.wallpaper.multipicture</string>
+</resources>

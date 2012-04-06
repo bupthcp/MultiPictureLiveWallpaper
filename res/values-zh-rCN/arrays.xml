@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- background color -->
+  <string-array name="pref_screen_bgcolor_entries">
+    <item>Black</item>
+    <item>White</item>
+    <item>Gray</item>
+    <item>Light gray</item>
+    <item>Dark gray</item>
+    <item>Red</item>
+    <item>Green</item>
+    <item>Blue</item>
+    <item>Cyan</item>
+    <item>Magenta</item>
+    <item>Yellow</item>
+    <item>Custom Color</item>
+    <item>Auto detect (slow and maybe inexact)</item>
+    <item>Same as Common settings</item>
+  </string-array>
+
+  <string-array name="pref_screen_default_bgcolor_entries">
+    <item>Black</item>
+    <item>White</item>
+    <item>Gray</item>
+    <item>Light gray</item>
+    <item>Dark gray</item>
+    <item>Red</item>
+    <item>Green</item>
+    <item>Blue</item>
+    <item>Cyan</item>
+    <item>Magenta</item>
+    <item>Yellow</item>
+    <item>Custom Color</item>
+    <item>Auto detect (slow and maybe inexact)</item>
+  </string-array>
+
+  <string-array name="pref_screen_bgcolor_entryvalues">
+    <item>black</item>
+    <item>white</item>
+    <item>gray</item>
+    <item>lightgray</item>
+    <item>darkgray</item>
+    <item>red</item>
+    <item>green</item>
+    <item>blue</item>
+    <item>cyan</item>
+    <item>magenta</item>
+    <item>yellow</item>
+    <item>custom</item>
+    <item>auto_detect</item>
+    <item>use_default</item>
+  </string-array>
+
+  <!-- clip ratio -->
+  <string-array name="pref_screen_clipratio_entries">
+    <item>Fit to Fullscreen</item>
+    <item>Medium crop</item>
+    <item>Show Entire Picture</item>
+    <item>Same as Common settings</item>
+  </string-array>
+
+  <string-array name="pref_screen_default_clipratio_entries">
+    <item>Fit to Fullscreen</item>
+    <item>Medium crop</item>
+    <item>Show Entire Picture</item>
+  </string-array>
+
+  <string-array name="pref_screen_clipratio_entryvalues">
+    <item>1.0</item>
+    <item>0.5</item>
+    <item>0.0</item>
+    <item>use_default</item>
+  </string-array>
+
+  <!-- saturation -->
+  <string-array name="pref_screen_saturation_entries">
+    <item>100% (no change)</item>
+    <item>90%</item>
+    <item>80%</item>
+    <item>70%</item>
+    <item>60%</item>
+    <item>50%</item>
+    <item>40%</item>
+    <item>30%</item>
+    <item>20%</item>
+    <item>10%</item>
+    <item>0% (grayscale)</item>
+    <item>Same as Common settings</item>
+  </string-array>
+
+  <string-array name="pref_screen_default_saturation_entries">
+    <item>100% (no change)</item>
+    <item>90%</item>
+    <item>80%</item>
+    <item>70%</item>
+    <item>60%</item>
+    <item>50%</item>
+    <item>40%</item>
+    <item>30%</item>
+    <item>20%</item>
+    <item>10%</item>
+    <item>0% (grayscale)</item>
+  </string-array>
+
+  <string-array name="pref_screen_saturation_entryvalues">
+    <item>1.0</item>
+    <item>0.9</item>
+    <item>0.8</item>
+    <item>0.7</item>
+    <item>0.6</item>
+    <item>0.5</item>
+    <item>0.4</item>
+    <item>0.3</item>
+    <item>0.2</item>
+    <item>0.1</item>
+    <item>0.0</item>
+    <item>use_default</item>
+  </string-array>
+
+  <!-- opacity -->
+  <string-array name="pref_screen_opacity_entries">
+    <item>100% (no change)</item>
+    <item>90%</item>
+    <item>80%</item>
+    <item>70%</item>
+    <item>60%</item>
+    <item>50%</item>
+    <item>40%</item>
+    <item>30%</item>
+    <item>20%</item>
+    <item>10%</item>
+    <item>0% (transparent)</item>
+    <item>Same as Common settings</item>
+  </string-array>
+
+  <string-array name="pref_screen_default_opacity_entries">
+    <item>100% (no change)</item>
+    <item>90%</item>
+    <item>80%</item>
+    <item>70%</item>
+    <item>60%</item>
+    <item>50%</item>
+    <item>40%</item>
+    <item>30%</item>
+    <item>20%</item>
+    <item>10%</item>
+    <item>0% (transparent)</item>
+  </string-array>
+
+  <string-array name="pref_screen_opacity_entryvalues">
+    <item>1.0</item>
+    <item>0.9</item>
+    <item>0.8</item>
+    <item>0.7</item>
+    <item>0.6</item>
+    <item>0.5</item>
+    <item>0.4</item>
+    <item>0.3</item>
+    <item>0.2</item>
+    <item>0.1</item>
+    <item>0.0</item>
+    <item>use_default</item>
+  </string-array>
+
+  <!-- selection order -->
+  <string-array name="pref_select_order_entries">
+    <item>Name (ascending order)</item>
+    <item>Name (descending order)</item>
+    <item>Date (oldest first)</item>
+    <item>Date (newest first)</item>
+    <item>Random</item>
+  </string-array>
+
+  <string-array name="pref_select_order_entryvalues">
+    <item>name_asc</item>
+    <item>name_desc</item>
+    <item>date_asc</item>
+    <item>date_desc</item>
+    <item>random</item>
+  </string-array>
+
+  <!-- switching transition -->
+  <string-array name="pref_draw_transition_entries">
+    <item>None</item>
+    <item>Slide</item>
+    <item>CrossFade</item>
+    <item>Fade In/Out</item>
+    <item>Zoom In/Out</item>
+    <item>Zoom and Slide</item>
+    <item>Wipe</item>
+    <item>Card</item>
+    <item>3D Slide</item>
+    <item>3D Rotation</item>
+    <item>Swing</item>
+    <item>Swap</item>
+    <item>Outside Cube</item>
+    <item>Inside Cube</item>
+    <item>Bookshelf</item>
+    <item>Random</item>
+  </string-array>
+
+  <string-array name="pref_draw_transition_entryvalues">
+    <item>none</item>
+    <item>slide</item>
+    <item>crossfade</item>
+    <item>fade_inout</item>
+    <item>zoom_inout</item>
+    <item>zoom_slide</item>
+    <item>wipe</item>
+    <item>card</item>
+    <item>slide_3d</item>
+    <item>rotation_3d</item>
+    <item>swing</item>
+    <item>swap</item>
+    <item>cube</item>
+    <item>cube_inside</item>
+    <item>bookshelf</item>
+    <item>random</item>
+  </string-array>
+
+  <!-- folder duration -->
+  <string-array name="pref_folder_duration_entries">
+    <item>5 seconds</item>
+    <item>10 seconds</item>
+    <item>30 seconds</item>
+    <item>1 minute</item>
+    <item>2 minutes</item>
+    <item>5 minutes</item>
+    <item>10 minutes</item>
+    <item>30 minutes</item>
+    <item>1 hour</item>
+    <item>2 hours</item>
+    <item>4 hours</item>
+    <item>6 hours</item>
+    <item>12 hours</item>
+    <item>24 hours</item>
+    <item>2 days</item>
+    <item>4 days</item>
+    <item>1 week</item>
+    <item>Never</item>
+  </string-array>
+
+  <string-array name="pref_folder_duration_entryvalues">
+    <item>5</item>
+    <item>10</item>
+    <item>30</item>
+    <item>60</item>
+    <item>120</item>
+    <item>300</item>
+    <item>600</item>
+    <item>1800</item>
+    <item>3600</item>
+    <item>7200</item>
+    <item>14400</item>
+    <item>21600</item>
+    <item>43200</item>
+    <item>86400</item>
+    <item>172800</item>
+    <item>345600</item>
+    <item>604800</item>
+    <item>0</item>
+  </string-array>
+
+  <!-- launcher workaround -->
+  <string-array name="pref_workaround_launcher_entries">
+    <item>None</item>
+    <item>Force 5 screens</item>
+    <item>Force 7 screens</item>
+    <item>For HTC Sense (5 screens)</item>
+    <item>For HTC Sense (7 screens)</item>
+    <item>For Honeycomb Tablet</item>
+    <item>For ICS MR1 Tablet</item>
+    <item>Ignore vertical movement</item>
+  </string-array>
+
+  <string-array name="pref_workaround_launcher_entryvalues">
+    <item>none</item>
+    <item>force_5screen</item>
+    <item>force_7screen</item>
+    <item>htc_sense_5screen</item>
+    <item>htc_sense</item>
+    <item>honeycomb_launcher</item>
+    <item>ics_mr1_launcher</item>
+    <item>no_vertical</item>
+  </string-array>
+
+  <!-- maximum memory usage -->
+  <string-array name="pref_memory_max_entries">
+    <item>Auto (Recommended)</item>
+    <item>Small</item>
+    <item>Medium</item>
+    <item>Large</item>
+    <item>Unlimited</item>
+  </string-array>
+
+  <string-array name="pref_memory_max_entryvalues">
+    <item>auto</item>
+    <item>16</item>
+    <item>24</item>
+    <item>32</item>
+    <item>-1</item>
+  </string-array>
+
+  <!-- full color -->
+  <string-array name="pref_color_fullcolor_entries">
+    <item>High color (16-bit)</item>
+    <item>True color (24-bit)</item>
+  </string-array>
+
+  <string-array name="pref_color_fullcolor_entryvalues">
+    <item>highcolor</item>
+    <item>fullcolor</item>
+  </string-array>
+</resources>
